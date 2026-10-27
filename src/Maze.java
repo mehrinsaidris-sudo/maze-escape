@@ -9,6 +9,12 @@ public class Maze {
         for (int i = 0; i < w.count(); i++) {
             if (dsu.union(w.a()[i], w.b()[i])) result[p++] = i;
         }
+
+        if (p != w.cells() - 1) {
+            throw new IllegalStateException(
+                    "Maze must contain exactly " + (w.cells() - 1) + " broken walls"
+            );
+        }
         return Arrays.copyOf(result, p);
     }
     public static int[] cheapestMaze(Input.Walls w) {
