@@ -32,6 +32,10 @@ public class DisjointSetTest {
         check(big.connected(0, 9999), "endpoints of the large set are connected");
         check(!big.union(9999, 0), "already-connected nodes cannot be joined again");
 
+        DisjointSet single = new DisjointSet(1);
+        check(single.count() == 1, "single element count");
+        check(single.find(0) == 0, "single element root");
+        check(!single.union(0, 0), "single element self-union");
         System.out.println(failed == 0 ? "All checks passed." : failed + " checks failed.");
     }
 }
