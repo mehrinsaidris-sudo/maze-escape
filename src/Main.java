@@ -26,7 +26,11 @@ public class Main {
         long mstCost = 0, heaviest = 0;
         for (int k : cheapest) { mstCost += walls.cost()[k]; heaviest = Math.max(heaviest, walls.cost()[k]); }
         long prim = Maze.primCost(walls);
-        if (prim != mstCost) System.out.println("WARNING: Kruskal gives " + mstCost + ", Prim gives " + prim);
+        if (prim != mstCost) {
+            throw new IllegalStateException(
+                    "MST cost mismatch: Kruskal=" + mstCost + ", Prim=" + prim
+            );
+        }
 
         // Mission 3
         Escape.Result escape = Escape.escape(walls, broken);
