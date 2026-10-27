@@ -1,0 +1,5 @@
+Benchmark measurements from student laptop, IntelliJ IDEA, Java 26, 2026-10-25
+size   Kruskal five runs / printed average   Prim five runs / printed average
+100    24 10 14 16 21 / 17            30 17 11 15 13 / 17
+300    152 76 54 50 47 / 76          264 140 133 130 133 / 160
+1000   1004 804 1026 1241 2093 / 1234   3304 2997 3172 4731 4913 / 3824
