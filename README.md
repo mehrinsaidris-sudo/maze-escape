@@ -55,7 +55,9 @@ Fastest route cost: 4
 
 ## AI use — disclosure
 
-**ChatGPT (OpenAI)** was used to generate an initial reference implementation, customize the project to Student ID 253466, explain algorithms, review and test the implementation, and prepare this README. The benchmark results below were recorded on the student’s own laptop using Java 26 and IntelliJ IDEA, based on the run output provided by the student. **Review, edit, and be able to explain all code yourself before academic submission.** Follow your course rules: unmodified AI-generated work submitted as your own is not allowed. Describe your actual use accurately.
+**ChatGPT (OpenAI)** was used to generate an initial reference implementation, customize the project to Student ID 253466, explain algorithms, review and test the implementation, and prepare this README. The benchmark results below were recorded on the student’s own laptop using Java 26 and IntelliJ IDEA, based on the run output provided by the student. **Review, edit, and be able to explain all code yourself before academic submission.** Follow your course rules: unmodified AI-generated work submitted as your own is not allowed. Describe your actual use accurately.### AI use
+
+I used ChatGPT to understand Git commands, troubleshoot GitHub authentication and push errors, and organize commits. I reviewed the suggested steps and tested the changes in IntelliJ IDEA.
 
 ## Timing (measured on my own laptop)
 
